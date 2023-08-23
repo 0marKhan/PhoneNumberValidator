@@ -1,0 +1,34 @@
+.centered-listed-data {
+  display: flex;
+  justify-content: center;
+}
+
+.listed-data {
+  color: white;
+  margin: 3rem 10rem;
+}
+
+.group-data {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #1dd597;
+  padding-bottom: 1rem;
+}
+
+.data-text {
+  color: #c2c6c5;
+  font-size: small;
+  flex-basis: 50%;
+}
+
+.data-value {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.store-button {
+  text-align: center;
+  margin-top: 2rem;
+}

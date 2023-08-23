@@ -61,22 +61,11 @@ p {
   margin: 3rem 0 3rem 0;
 }
 
-.group-data {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #1dd597;
-  padding-bottom: 1rem;
+.database-button {
+  margin-right: 22rem;
+  margin-top: 3rem;
 }
 
-.data-text {
-  color: #c2c6c5;
-  font-size: small;
-  flex-basis: 50%;
-}
-
-.data-value {
-  flex-grow: 1;
-  text-align: left;
-  padding-left: 1rem;
+.see-database-button {
+  text-align: center;
 }
