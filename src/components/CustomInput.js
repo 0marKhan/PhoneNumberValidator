@@ -1,9 +1,7 @@
-import TextField from "@mui/material/TextField";
+import Input from "@mui/material/TextField";
 import { styled } from "@mui/material/styles";
 
-const CustomTextField = styled(TextField)({
-  borderColor: "#1dd597",
-
+const CustomInput = styled(Input)(({ theme }) => ({
   "& label.Mui-focused": {
     color: "#fff",
   },
@@ -13,12 +11,15 @@ const CustomTextField = styled(TextField)({
   "& .MuiInput-underline:before": {
     borderBottomColor: "#fff",
   },
-  "& .MuiInput-underline:hover:before": {
+  "& .MuiInput-underline:hover:not(.Mui-disabled):before": {
     borderBottomColor: "#fff",
   },
   "& .MuiInput-underline:after": {
     borderBottomColor: "#1dd597",
   },
-});
+  "& .MuiInputBase-input": {
+    color: "#fff",
+  },
+}));
 
-export default CustomTextField;
+export default CustomInput;
