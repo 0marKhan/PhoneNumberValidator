@@ -33,6 +33,14 @@
   margin-top: 2rem;
 }
 
+.toastify-progress-success {
+  background-color: #1dd597;
+}
+
+.toastify-success svg {
+  fill: #1dd597 !important;
+}
+
 @media screen and (max-width: 873px) {
   .listed-data {
     margin: 0 3rem;
