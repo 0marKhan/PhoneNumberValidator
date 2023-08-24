@@ -5,7 +5,7 @@
 
 .listed-data {
   color: white;
-  margin: 3rem 10rem;
+  margin: 3rem 6rem;
 }
 
 .group-data {
@@ -31,4 +31,14 @@
 .store-button {
   text-align: center;
   margin-top: 2rem;
+}
+
+@media screen and (max-width: 873px) {
+  .listed-data {
+    margin: 0 3rem;
+  }
+
+  .store-button {
+    margin-bottom: 3rem;
+  }
 }

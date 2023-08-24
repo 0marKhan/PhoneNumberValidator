@@ -1,0 +1,118 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.middle-data {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  margin: 4rem 0 0 4rem;
+}
+
+.submit-button {
+  margin-top: 1rem;
+}
+
+.card,
+.side-card {
+  background-color: #111d19;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #1dd597;
+}
+
+.side-card {
+  width: 22rem;
+  margin-left: 4rem;
+  margin-right: 2rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  width: 48rem;
+  margin: 2rem;
+}
+
+p {
+  color: #fff;
+  line-height: 2rem;
+}
+
+.important-text {
+  font-weight: 600;
+}
+
+.title {
+  justify-content: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+.title-text {
+  margin-left: 0.5rem;
+}
+
+.number-data {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0 3rem 0;
+}
+
+.database-button {
+  margin-right: 22rem;
+  margin-top: 3rem;
+}
+
+.see-database-button {
+  text-align: center;
+}
+
+@media screen and (max-width: 873px) {
+  .card {
+    width: 25rem;
+  }
+  .middle-data {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    order: 1;
+    width: 100%;
+    margin: 0;
+    margin-top: 2rem;
+  }
+
+  .submit-button {
+    margin-top: 1rem;
+  }
+
+  .side-card {
+    margin: 0 2rem 0 2rem;
+    align-items: center;
+    width: 82%;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
