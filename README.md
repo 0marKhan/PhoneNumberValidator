@@ -56,4 +56,4 @@ This website gives information like the phone carrier, international number form
      ```
 
 ## Important Notes
-- if on starting no data is rendered it would be because the monthly quota of 500 requests(fixed) have been used up
+- if no data is rendered when a phone number is entered, it would be because the monthly quota of 500 requests(fixed) have been used up
