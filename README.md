@@ -8,7 +8,7 @@ This website gives information like the phone carrier, international number form
     <img src="./home_screen.png" alt="website image" width="1347"  border="10"/>
 </p>
 
-- fetching data from the veriphone API after registering on the site
+- fetching data from the Veriphone API after registering on the site
 - making the API call when a phone number is entered to verify
 - the data of the phone is extracted from the API and displayed, as well as a button that lets you store the number in the firebase database using axios
 
@@ -34,10 +34,26 @@ This website gives information like the phone carrier, international number form
 - [![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
 
-
-
-
 ## Click in the link to watch a video tutorial of the website!
 [website tutorial](https://youtu.be/ks91pz3tJf0?si=Dx0dhKz28sT1jjr3)
 
+## How to get the project working on your device
 
+- clone the repository
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+- navigate to the project directory and install all dependencies
+  ```sh
+   npm install
+   ```
+- create an account on rapid API
+- go to the Veriphone API and subscribe to it [Veriphone API](https://rapidapi.com/Veriphone/api/veriphone)
+- copy your API key and replace it with the API key currently in the project
+- run the project
+   ```sh
+     npm start
+     ```
+
+## Important Notes
+- if on starting no data is rendered it would be because the monthly quota of 500 requests(fixed) have been used up
