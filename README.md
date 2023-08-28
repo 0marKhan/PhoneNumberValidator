@@ -25,6 +25,13 @@ This website gives information like the phone carrier, international number form
 - to filter through the numbers in the database a search option is made with input fields that let you filter accordingly
 - they can also be deleted using the delete button with each number 
 
+## Technologied Used
+
+- [![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+- [![CSS](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/Overview.en.html)
+- [![Axios](https://img.shields.io/badge/-Axios-007ACC?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
+- [![Material UI](https://img.shields.io/badge/-Material%20UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)](https://material-ui.com/)
+- [![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
 
 
