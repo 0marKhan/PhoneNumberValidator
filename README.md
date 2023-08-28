@@ -3,3 +3,16 @@
 ## uses Veriphone API from the RapidAPI website to validate phone numbers, store and delete them, and search through saved numbers
 
 This website gives information like the phone carrier, international number format, local number format, the country the number is from, the ES6 format, the country code and the phone type
+
+<p align="center">
+    <img src="./home_screen.png" alt="website image" width="1347"  border="10"/>
+</p>
+
+
+
+
+
+## Click in the link to watch a video tutorial of the website!
+[website tutorial](https://youtu.be/ks91pz3tJf0?si=Dx0dhKz28sT1jjr3)
+
+
