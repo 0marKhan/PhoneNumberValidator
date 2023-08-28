@@ -8,10 +8,17 @@ import SubmitButton from "../components/SubmitButton";
 import Backdrop from "@mui/material/Backdrop";
 import CircularProgress from "@mui/material/CircularProgress";
 import { Link } from "react-router-dom";
+import SearchNumbers from "../components/SearchNumbers";
 
 const StoredNumbers = () => {
   const [loadedNumbers, setLoadedNumbers] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [filterCriteria, setFilterCriteria] = useState({
+    phoneNumber: "",
+    idNumber: "",
+    carrier: "",
+    country: "",
+  });
 
   useEffect(() => {
     const getStoredNumbers = async () => {
@@ -49,6 +56,24 @@ const StoredNumbers = () => {
     getStoredNumbers();
   }, []);
 
+  const updateFilterCriteria = (criteria) => {
+    setFilterCriteria(criteria);
+  };
+
+  // Filter the loadedNumbers array based on filter criteria
+  const filteredNumbers = loadedNumbers.filter((num) => {
+    if (
+      (!filterCriteria.phoneNumber ||
+        num.local_number.includes(filterCriteria.phoneNumber)) &&
+      (!filterCriteria.idNumber || num.id === filterCriteria.idNumber) &&
+      (!filterCriteria.carrier || num.carrier === filterCriteria.carrier) &&
+      (!filterCriteria.country || num.country === filterCriteria.country)
+    ) {
+      return true;
+    }
+    return false;
+  });
+
   return (
     <div>
       <div className="back-to-home">
@@ -57,7 +82,8 @@ const StoredNumbers = () => {
         </Link>
       </div>
       <h1 className="stored_numbers-title">StoredNumbers</h1>
-      {loadedNumbers.map((nums) => (
+      <SearchNumbers onSearch={updateFilterCriteria} />
+      {filteredNumbers.map((nums) => (
         <NumbersFromDB
           key={nums.id}
           numData={nums}

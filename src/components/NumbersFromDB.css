@@ -2,7 +2,7 @@
   color: #fff;
   display: flex;
   justify-content: center;
-  margin: 2rem 2rem 1rem 2rem;
+  margin: 2rem 2rem 2rem 2rem;
   gap: 15%;
   background-color: #111d19;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -31,6 +31,15 @@
 
 .delete-button {
   padding-top: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .column1 {
+    width: 19rem;
+  }
+  .column2 {
+    margin-right: 6rem;
+  }
 }
 
 @media screen and (max-width: 641px) {
