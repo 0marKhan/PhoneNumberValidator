@@ -2,7 +2,7 @@
 
 ## uses Veriphone API from the RapidAPI website to validate phone numbers, store and delete them, and search through saved numbers
 
-##[View the website live](https://phonenumvalid.web.app)
+## [View the website live](https://phonenumvalid.web.app)
 
 This website gives information like the phone carrier, international number format, local number format, the country the number is from, the ES6 format, the country code and the phone type. The website was made using these steps
 
